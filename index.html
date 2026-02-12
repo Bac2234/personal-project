@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Will you be my Valentine?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="card" id="card">
+      <div class="icon" aria-hidden="true">
+        <!-- simple cute blob icon -->
+        <svg viewBox="0 0 120 120" width="90" height="90">
+          <defs>
+            <linearGradient id="g" x1="0" x2="1">
+              <stop offset="0" stop-color="#f6b26b"/>
+              <stop offset="1" stop-color="#f4a261"/>
+            </linearGradient>
+          </defs>
+          <path d="M26,54 C20,37 33,18 57,18 C82,18 100,36 96,58 C92,82 69,98 49,92 C31,87 31,73 26,54 Z"
+                fill="url(#g)"/>
+          <circle cx="55" cy="56" r="4" fill="#111"/>
+          <circle cx="71" cy="56" r="4" fill="#111"/>
+          <circle cx="63" cy="67" r="4" fill="#ff7aa2"/>
+          <path d="M79 20 C95 16 106 32 97 44 C87 57 72 47 72 36 C72 28 74 22 79 20 Z"
+                fill="#ff3b7a"/>
+        </svg>
+      </div>
+
+      <h1 class="title">isabel will you be my valentine?</h1>
+
+      <div class="btn-area" id="btnArea">
+        <button class="btn yes" id="yesBtn">Yes</button>
+        <button class="btn no" id="noBtn">No</button>
+      </div>
+
+      <p class="hint">"No" seems a bit shy 😈</p>
+
+      <p class="result" id="result" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
