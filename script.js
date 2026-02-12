@@ -83,13 +83,13 @@ noBtn.addEventListener("mouseenter", () => {
 
 function launchCelebration() {
   // Replace the card with a celebration screen
-  card.innerHTML = `
-    <div class="celebrate">
-      <h1 class="celebrate-title">YAYYY 💖</h1>
-      <p class="celebrate-sub">Isabel said yes 😈</p>
-      <p class="celebrate-sub2">Happy Valentine’s Day 💘</p>
-      <button class="btn yes celebrate-btn" id="restartBtn">Replay</button>
-    </div>
+ card.innerHTML = `
+  <div class="celebrate">
+    <h1 class="celebrate-title">Love you bbg 💜</h1>
+    <p class="celebrate-sub">SHE SAID YES!!!! 💖</p>
+    <p class="celebrate-sub2">Happy Valentine’s Day 💘</p>
+    <button class="btn yes celebrate-btn" id="restartBtn">Replay</button>
+  </div>
 
     <div class="float-layer" id="floatLayer"></div>
   `;
